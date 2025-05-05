@@ -1,0 +1,33 @@
+ 1079  mkdir CTA200_2025
+ 1080  cd CTA200_2025/
+ 1081  mkdir assignment_1
+ 1082  touch README.md
+ 1083  vi README.md 
+ 1084  cat README.md 
+ 1085  find /home/murray/ -name "Hello_world.py"
+ 1086  cp /home/murray/tmp/Hello_world.py /fs/lustre/scratch/irosenberg/CTA200_2025/assignment_1/
+ 1087  cp /home/murray/Papers/tmp/Hello_world.c /fs/lustre/scratch/irosenberg/CTA200_2025/assignment_1/
+ 1088  ls
+ 1089  cd assignment_1/
+ 1090  ls
+ 1091  mv Hello_world.c Hello_world_rosenberg.c
+ 1092  mv Hello_world.py Hello_world_rosenberg.py
+ 1093  ls
+ 1094  gcc Hello_world_rosenberg.c 
+ 1095  ls
+ 1096  mv a.out Hello_world.x
+ 1097  python Hello_world_rosenberg.py 
+ 1098  ./Hello_world.x 
+ 1099  vi Hello_world_rosenberg.py 
+ 1100  vi Hello_world_rosenberg.c 
+ 1101  cat Hello_world_rosenberg.py 
+ 1102  cat Hello_world_rosenberg.c 
+ 1103  python Hello_world_rosenberg.py 
+ 1104  gcc Hello_world_rosenberg.c 
+ 1105  ls
+ 1106  mv a.out Hello_world.x 
+ 1107  ./Hello_world.x 
+ 1108  python Hello_world_rosenberg.py > output_python.txt
+ 1109  ./Hello_world.x > output_c.txt
+ 1110  cat output_python.txt 
+ 1111  cat output_c.txt 
